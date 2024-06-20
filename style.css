@@ -271,6 +271,30 @@ main img {
   color: #ccf381;
 }
 
+/* stack */
+
+.stack {
+  margin-top: 20rem;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.stack h4 {
+  color: #ccf381;
+}
+
+.stack-wrapper {
+  margin-top: 2rem;
+}
+
+.stack-wrapper img {
+  transition: transform 0.3s ease;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.stack-wrapper img:hover {
+  transform: rotate(360deg);
+}
 /* responsive */
 
 @media (max-width: 1399.98px) {
