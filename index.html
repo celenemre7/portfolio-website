@@ -42,6 +42,30 @@
     <main>
       <section class="about container">
         <div class="about-wrapper">
+          <div class="decor">
+            <svg width="100%" height="100%">
+              <defs>
+                <pattern
+                  id="dotted-lines"
+                  width="10"
+                  height="10"
+                  patternUnits="userSpaceOnUse"
+                >
+                  <line
+                    x1="0"
+                    y1="5"
+                    x2="10"
+                    y2="5"
+                    stroke="rgba(255, 255, 255, 0.2)"
+                    stroke-width="1"
+                    stroke-dasharray="2,2"
+                  />
+                </pattern>
+              </defs>
+              <rect width="100%" height="100%" fill="url(#dotted-lines)" />
+            </svg>
+          </div>
+
           <div class="about">
             <h5>Hi I'm Emre Çelen</h5>
             <h2>Frontend</h2>
@@ -65,8 +89,60 @@
             <img src="/img/Vesika.jpg" alt="" />
           </div>
         </div>
+
+        <div class="dekor">
+          <svg width="200" height="50">
+            <path
+              d="M0 30 C 30 20, 60 40, 90 30 S 120 10, 150 30 S 180 50, 210 30"
+              stroke="#ccf381"
+              stroke-width="2"
+              fill="none"
+            />
+            <path
+              d="M0 25 C 30 15, 60 35, 90 25 S 120 5, 150 25 S 180 45, 210 25"
+              stroke="#ccf381"
+              stroke-width="3"
+              fill="none"
+            />
+          </svg>
+        </div>
       </section>
     </main>
+
+    <section class="decors">
+      <div class="decor">
+        <svg
+          width="100"
+          height="100"
+          style="position: absolute; bottom: 20px; right: 20px"
+        >
+          <line
+            x1="0"
+            y1="10"
+            x2="10"
+            y2="10"
+            stroke="rgba(255, 255, 255, 0.5)"
+            stroke-width="2"
+          />
+          <line
+            x1="20"
+            y1="20"
+            x2="30"
+            y2="20"
+            stroke="rgba(255, 255, 255, 0.5)"
+            stroke-width="2"
+          />
+          <line
+            x1="40"
+            y1="30"
+            x2="50"
+            y2="30"
+            stroke="rgba(255, 255, 255, 0.5)"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+    </section>
 
     <section class="stack">
       <h4>Current Stack</h4>
@@ -98,6 +174,91 @@
         <img
           src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACfUlEQVR4nO2YO2uUQRSGHzWFtyhqF9CInZFYZAvjBWzV1oAiogii5AdEMNWiYhQb0X9gFQvFC6bWShBDjJdSEBSNWimRREEjI7OyHM63O7cv64fzwFQ7886c+WbOnHchk8lkMv8JXUAd6Kfi7AMWbHsODFNRbjQFYto1KshK4KsIZCcV5LAI4g2whApyTwRyfrEXUAMGIjXWA99FIH1txgzYuZPQA7wF5oAjETqnRRBTbfofBGaB98BGIlkFTDZN/gsYDdR6KAIZadF31M7V6PvUJoogzCUcF5ObdjFAy+zoT7EhvS36jynz3gKWhgSiid0OFDsjdMzXabeJN5X5z/lOfEwRmbJHLYRnQuuUw5gVwBMxznzJo66T7gbmhcCHiAu3VWj9ADZ4JJp3YvycyyO6GfioDBwknAtC767n+BrwTWjMAJuKBnTbIk5+ypiUa876a6F5KEBnSGQx014Ca2THZcB95V6YcjuGXUJvNuKe1ZX1PbBr/8tVpdN4gjroutA0lW/q5+BSo8MJ5cfJmAeoyUDNCF3jRWJYDjxW1nuyzED2C81PNrjSAinraEkDZY4ZJRyty2Ve9jIMVF1Z34S87I30+yJR+k1toIaU9PsKWFv2g5jSQNWUB/EzsKXdwD2RJco6xUBtCwyiRylRjPZeV4HjBUXj6hIMlE/RuNCcoVy54vKSKjzyMFC+ZfxYgNYf33HHU8zXQPl4oQmHTSzEHKXpopJAYcTTQBVxVmzItOOxbkmvLTXm7d1JbaCKOAB8cc1Qrgw6pOA+JbuYv4Bi2A7sYJGJNVD/BKkMVMdJaaA6SkoD1VGGhd+PNVAdp9+W27EGKpPJZDJUgt9qe2YKMc1BIgAAAABJRU5ErkJggg=="
         />
+      </div>
+    </section>
+
+    <section class="decor">
+      <svg
+        width="100"
+        height="100"
+        style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        "
+      >
+        <line
+          x1="0"
+          y1="10"
+          x2="10"
+          y2="10"
+          stroke="rgba(255, 255, 255, 0.5)"
+          stroke-width="2"
+        />
+        <line
+          x1="20"
+          y1="20"
+          x2="30"
+          y2="20"
+          stroke="rgba(255, 255, 255, 0.5)"
+          stroke-width="2"
+        />
+        <line
+          x1="40"
+          y1="30"
+          x2="50"
+          y2="30"
+          stroke="rgba(255, 255, 255, 0.5)"
+          stroke-width="2"
+        />
+      </svg>
+    </section>
+
+    <section class="about-me">
+      <div class="about-me-wrapper container">
+        <div class="me">
+          <div>
+            <h4>About Me</h4>
+            <h6>I'm a product designer based in sunny Sydney, Australia.</h6>
+            <p>
+              Since 2005, I've enjoyed turning complex problems into simple,
+              beautiful and intuitive designs. When I'm not pushing pixels,
+              you'll find me cooking, gardening or working out in the park.When
+              I'm not pushing pixels, you'll find me cooking, gardening or
+              working out in the park.
+            </p>
+            <p>
+              When I'm not pushing pixels, you'll find me cooking, gardening or
+              working out in the park.
+            </p>
+          </div>
+        </div>
+        <hr />
+
+        <div class="education">
+          <div class="education-location">
+            <i class="fa-solid fa-location-dot"></i>
+            <h4>Turkey</h4>
+          </div>
+          <div class="education-wrapper">
+            <div class="school">
+              <h5>Denizli Cumhuriyet Anatolian High School</h5>
+              <h6>(2015-19)</h6>
+            </div>
+            <div class="school">
+              <h5>Izmir Demokrasi University Management Information System</h5>
+              <h6>(2020-24)</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="dekor-balon">
+        <svg width="150" height="100">
+          <circle cx="50" cy="50" r="40" fill="#4831d4" opacity="0.8" />
+          <circle cx="80" cy="60" r="30" fill="#311b92" opacity="0.6" />
+          <circle cx="100" cy="40" r="20" fill="#1a237e" opacity="0.4" />
+        </svg>
       </div>
     </section>
   </body>
