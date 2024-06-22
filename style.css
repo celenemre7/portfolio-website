@@ -171,11 +171,15 @@ h6 {
 }
 
 /* header */
+
+header {
+  background-color: #311b92;
+}
 .header-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem;
+  padding: 1.8rem;
 }
 
 .logo img {
@@ -213,7 +217,7 @@ h6 {
 /* main */
 
 main {
-  margin-top: 20rem;
+  margin-top: 9rem;
   color: #ccf381;
 }
 
@@ -366,6 +370,36 @@ main img {
 .location i {
   margin-right: 0.7rem;
 }
+
+/* footer */
+
+footer {
+  background-color: #311b92;
+  padding: 3rem 0;
+  margin-top: 10rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: white;
+  margin-bottom: 2rem;
+}
+.social a {
+  color: white;
+  font-size: 2.5rem;
+  margin: 0 1rem;
+}
+
+.social a:hover {
+  color: #ccf381;
+}
+
 /* responsive */
 
 @media (max-width: 1399.98px) {
