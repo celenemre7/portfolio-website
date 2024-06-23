@@ -275,4 +275,21 @@
       </div>
     </footer>
   </body>
+  <script>
+    const mainSection = document.querySelector("main"); // "main" öğesini seç
+    const aboutSection = document.querySelector(".about"); // ".about" öğesini seç
+    const picsSection = document.querySelector(".pics"); // ".pics" öğesini seç
+
+    // "main" öğesine fare ile girildiğinde
+    mainSection.addEventListener("mouseover", () => {
+      aboutSection.classList.add("show"); // ".about" öğesine "show" sınıfını ekle
+      picsSection.classList.add("show"); // ".pics" öğesine "show" sınıfını ekle
+    });
+
+    // "main" öğesinden fare ile çıkıldığında
+    mainSection.addEventListener("mouseout", () => {
+      aboutSection.classList.remove("show"); // ".about" öğesinden "show" sınıfını kaldır
+      picsSection.classList.remove("show"); // ".pics" öğesinden "show" sınıfını kaldır
+    });
+  </script>
 </html>

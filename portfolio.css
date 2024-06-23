@@ -54,6 +54,13 @@
   grid-gap: 3rem;
 }
 
+.portfolio-intro {
+  animation: slideInFromLeft 0.5s ease-in-out;
+}
+
+.portfolio-images {
+  animation: slideInFromRight 0.5s ease-in-out;
+}
 .project {
   background-color: #311b92;
   border-radius: 10px;

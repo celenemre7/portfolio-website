@@ -9,7 +9,8 @@
 
 .contact-page-wrapper {
   text-align: center;
-  width: 600px; /* Set a fixed width for the form */
+  width: 600px;
+  animation: slideInFromBottom 0.2s ease-in-out;
 }
 
 .contact-page-wrapper h2 {

@@ -219,12 +219,14 @@ header {
 main {
   margin-top: 9rem;
   color: #ccf381;
+  overflow-x: hidden;
 }
 
 .about {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
+  animation: slideInFromLeft 0.5s ease-in-out;
 }
 
 .about p {
@@ -247,6 +249,7 @@ main {
   display: flex;
   justify-content: flex-end;
   flex: 1 0 50%;
+  animation: slideInFromRight 0.5s ease-in-out;
 }
 main img {
   width: 30rem;
@@ -282,6 +285,7 @@ main img {
   margin-top: 2rem;
   font-size: 4rem;
   text-align: center;
+  animation: slideInFromBottom 0.5s ease-in-out ;
 }
 
 .stack h4 {
@@ -471,5 +475,37 @@ footer {
   .container {
     margin-left: 3rem;
     margin-right: 3rem;
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px); /* Başlangıçta ekran dışında sola */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Görünür hale gel ve yerine kay */
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px); /* Başlangıçta ekran dışında sağa */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Görünür hale gel ve yerine kay */
+  }
+}
+@keyframes slideInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); /* Başlangıçta ekran dışında aşağıda */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Görünür hale gel ve yerine kay */
   }
 }
