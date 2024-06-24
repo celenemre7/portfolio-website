@@ -17,7 +17,7 @@
     <header>
       <div class="header-wrapper">
         <div class="logo">
-          <img src="/img/logos.png" alt="" />
+          <a href="index.html"><img src="img/logos.png" alt="" /></a>
         </div>
         <div class="hero">
           <ul>
@@ -80,12 +80,25 @@
             </p>
 
             <div class="about-button">
-              <button class="cv">Download CV</button>
-              <button class="contact">Contact Me!</button>
+              <div class="about-button">
+                <a
+                  href="https://drive.google.com/file/d/1Zu4USZrMAe9ux0Wo4SEegbLOeOSddZP1/view?usp=drive_link"
+                  class="cv"
+                  download
+                  target="_blank"
+                  >Download CV</a
+                >
+                <a
+                  href="https://www.linkedin.com/in/emrecelen7/"
+                  class="contact"
+                  target="_blank"
+                  >Contact Me!</a
+                >
+              </div>
             </div>
           </div>
           <div class="pics">
-            <img src="/img/Vesika.jpg" alt="" />
+            <img src="img/Vesika.jpg" alt="" />
           </div>
         </div>
 
@@ -269,27 +282,15 @@
           <p>© Emre Çelen. 2024</p>
         </div>
         <div class="social">
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/emrecelen7/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/celenemre7" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
     </footer>
   </body>
-  <script>
-    const mainSection = document.querySelector("main"); // "main" öğesini seç
-    const aboutSection = document.querySelector(".about"); // ".about" öğesini seç
-    const picsSection = document.querySelector(".pics"); // ".pics" öğesini seç
-
-    // "main" öğesine fare ile girildiğinde
-    mainSection.addEventListener("mouseover", () => {
-      aboutSection.classList.add("show"); // ".about" öğesine "show" sınıfını ekle
-      picsSection.classList.add("show"); // ".pics" öğesine "show" sınıfını ekle
-    });
-
-    // "main" öğesinden fare ile çıkıldığında
-    mainSection.addEventListener("mouseout", () => {
-      aboutSection.classList.remove("show"); // ".about" öğesinden "show" sınıfını kaldır
-      picsSection.classList.remove("show"); // ".pics" öğesinden "show" sınıfını kaldır
-    });
-  </script>
+  <script></script>
 </html>

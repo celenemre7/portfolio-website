@@ -260,11 +260,11 @@ main img {
   display: flex;
   justify-content: space-evenly;
 }
-.about-button .cv,
-.about-button .contact {
+.about-button a {
   margin-top: 2rem;
   border: 0px solid #ccf381;
   background-color: #ccf381;
+  color: black;
   font-size: 2rem;
   padding: 1rem;
   border-radius: 1rem;
@@ -272,10 +272,8 @@ main img {
   margin-right: 1rem;
 }
 
-.cv:hover,
-.contact:hover {
+.about-button a:hover {
   background-color: black;
-  border-color: black;
   color: #ccf381;
 }
 
@@ -285,7 +283,7 @@ main img {
   margin-top: 2rem;
   font-size: 4rem;
   text-align: center;
-  animation: slideInFromBottom 0.5s ease-in-out ;
+  animation: slideInFromBottom 0.5s ease-in-out;
 }
 
 .stack h4 {
