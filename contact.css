@@ -9,7 +9,7 @@
 
 .contact-page-wrapper {
   text-align: center;
-  width: 600px;
+  width: 560px;
   animation: slideInFromBottom 0.2s ease-in-out;
 }
 
@@ -68,4 +68,15 @@
 
 .contact-page button[type="submit"]:hover {
   background-color: #c0ed61;
+}
+
+.footer {
+  margin-top: 0rem;
+}
+
+@media (max-width: 575.98px) {
+  .contact-page-wrapper {
+    width: 100%;
+    max-width: 230px;
+  }
 }

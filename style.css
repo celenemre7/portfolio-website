@@ -182,8 +182,11 @@ header {
   padding: 1.8rem;
 }
 
-.logo img {
+.logo a {
   width: 20rem;
+  background-color: black;
+  padding: 1rem;
+  
 }
 .hero {
   display: flex;
