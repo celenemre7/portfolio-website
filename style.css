@@ -186,7 +186,6 @@ header {
   width: 20rem;
   background-color: black;
   padding: 1rem;
-  
 }
 .hero {
   display: flex;
@@ -215,6 +214,7 @@ header {
 .bars {
   color: black;
   display: none;
+  cursor: pointer;
 }
 
 /* main */
@@ -230,6 +230,7 @@ main {
   flex-direction: column;
   margin-bottom: 1rem;
   animation: slideInFromLeft 0.5s ease-in-out;
+  margin-top: 1rem;
 }
 
 .about p {
@@ -456,8 +457,48 @@ footer {
     color: #ccf381;
   }
 
+  body {
+    position: relative;
+  }
   .hero {
     display: none;
+    width: 100%;
+  }
+
+  .hero.active {
+    display: block;
+    position: absolute;
+    top: 2.4%;
+    left: 0;
+    right: 0;
+    background-color: #311b92;
+    z-index: 2;
+  }
+
+  .hero ul {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+
+  .hero li {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #311b92;
+  }
+
+  .hero li a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .hero.active ul li {
+    justify-content: center;
   }
 
   .bars {

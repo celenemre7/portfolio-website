@@ -113,6 +113,15 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const bars = document.querySelector(".bars");
+        const hero = document.querySelector(".hero");
+
+        bars.addEventListener("click", function () {
+          hero.classList.toggle("active");
+        });
+      });
+    </script>
   </body>
 </html>

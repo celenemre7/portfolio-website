@@ -9,8 +9,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     />
-    <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="contact.css" />
   </head>
   <body>
     <header>
@@ -88,7 +89,6 @@
           <circle cx="100" cy="40" r="20" fill="#9c27b0" opacity="0.4" />
         </svg>
       </div>
-      
     </section>
     <footer>
       <div class="footer-wrapper container">
@@ -106,6 +106,15 @@
       </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const bars = document.querySelector(".bars");
+        const hero = document.querySelector(".hero");
+
+        bars.addEventListener("click", function () {
+          hero.classList.toggle("active");
+        });
+      });
+    </script>
   </body>
 </html>
