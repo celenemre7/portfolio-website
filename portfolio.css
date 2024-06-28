@@ -127,6 +127,9 @@
 }
 
 @media (max-width: 767.98px) {
+  .hero.active {
+    top: 5rem;
+  }
   .portfolio-content {
     flex-direction: column;
   }

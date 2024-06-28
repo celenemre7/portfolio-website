@@ -518,6 +518,10 @@ footer {
     margin-left: 3rem;
     margin-right: 3rem;
   }
+
+  .hero.active {
+    top: 2%;
+  }
 }
 
 @keyframes slideInFromLeft {

@@ -80,13 +80,9 @@
     max-width: 230px;
   }
   .hero {
-    margin-top:2.7rem ;
+    margin-top: 2.7rem;
   }
 }
 
 @media (max-width: 575.98px) {
-  .contact-page-wrapper {
-    width: 100%;
-    max-width: 230px;
-  }
 }
